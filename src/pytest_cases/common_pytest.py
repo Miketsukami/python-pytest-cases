@@ -641,7 +641,7 @@ def in_callspec_explicit_args(
 if PYTEST71_OR_GREATER:
     from _pytest.python import IdMaker  # noqa
 
-    _idval = IdMaker([], [], None, None, None, None, None)._idval
+    _idval = IdMaker([], [], None, None, None, None)._idval
     _idval_kwargs = dict()
 else:
     from _pytest.python import _idval  # noqa
